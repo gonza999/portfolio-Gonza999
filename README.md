@@ -33,8 +33,8 @@ Este portafolio está construido con [Astro](https://astro.build/) y utiliza [Ta
 2. Instala las dependencias:
     Inicia el servidor de desarrollo:
     Abre tu navegador en http://localhost:4321.
-    
-📧 Contacto
+
+## 📧 Contacto
 Si deseas contactarme, puedes hacerlo a través de:
 
 LinkedIn: Gonzalo M.
