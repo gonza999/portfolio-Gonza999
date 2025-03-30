@@ -37,7 +37,8 @@ Este portafolio está construido con [Astro](https://astro.build/) y utiliza [Ta
 ## 📧 Contacto
 Si deseas contactarme, puedes hacerlo a través de:
 
-LinkedIn: Gonzalo M.
-GitHub: gonza999
-Correo: gonzalomisciagna@gmail.com
-¡Gracias por visitar mi portafolio! 😊
+- LinkedIn: Gonzalo M.
+- GitHub: gonza999
+- Correo: gonzalomisciagna@gmail.com
+
+# ¡Gracias por visitar mi portafolio! 😊
