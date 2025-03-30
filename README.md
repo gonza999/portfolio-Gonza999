@@ -1,48 +1,43 @@
-# Astro Starter Kit: Basics
+# Portafolio de Gonza999
 
-```sh
-bun create astro@latest -- --template basics
-```
+¡Bienvenido a mi portafolio! Este proyecto está diseñado para mostrar mi experiencia laboral, habilidades y proyectos destacados como desarrollador backend.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🚀 Descripción
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Este portafolio está construido con [Astro](https://astro.build/) y utiliza [TailwindCSS](https://tailwindcss.com/) para el diseño. Aquí encontrarás información sobre mi experiencia profesional, educación y formas de contactarme.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 🛠️ Tecnologías utilizadas
 
-## 🚀 Project Structure
+- **Astro**: Framework para construir sitios web rápidos y modernos.
+- **TailwindCSS**: Framework de CSS para un diseño rápido y eficiente.
+- **JavaScript/TypeScript**: Lenguajes principales para el desarrollo.
+- **HTML/CSS**: Estructura y estilos básicos.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📂 Estructura del proyecto
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+├── src/ │ ├── components/ # Componentes reutilizables │ ├── layouts/ # Plantillas de diseño │ ├── pages/ # Páginas del sitio │ └── assets/ # Recursos estáticos ├── public/ # Archivos públicos (favicon, imágenes, etc.) ├── .astro/ # Archivos generados por Astro ├── .vscode/ # Configuración de Visual Studio Code ├── package.json # Dependencias y scripts del proyecto ├── tailwind.config.mjs # Configuración de TailwindCSS └── tsconfig.json # Configuración de TypeScript
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-## 🧞 Commands
+## ✨ Funcionalidades
 
-All commands are run from the root of the project, from a terminal:
+- **Sección de experiencia laboral**: Detalles sobre mis roles y responsabilidades en empresas anteriores.
+- **Enlaces a redes sociales**: Acceso rápido a mi LinkedIn, GitHub y correo electrónico.
+- **Diseño responsivo**: Adaptado para dispositivos móviles y de escritorio.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+## 📜 Cómo ejecutar el proyecto
 
-## 👀 Want to learn more?
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/gonza999/portfolio.git
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+2. Instala las dependencias:
+    Inicia el servidor de desarrollo:
+    Abre tu navegador en http://localhost:4321.
+    
+📧 Contacto
+Si deseas contactarme, puedes hacerlo a través de:
+
+LinkedIn: Gonzalo M.
+GitHub: gonza999
+Correo: gonzalomisciagna@gmail.com
+¡Gracias por visitar mi portafolio! 😊
