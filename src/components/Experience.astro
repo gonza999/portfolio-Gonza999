@@ -1,0 +1,33 @@
+---
+import type { ACTION_ERROR_CODES, ACTION_QUERY_PARAMS, ActionError } from "astro:actions"
+import ExperienceItem from "./ExperienceItem.astro"
+
+const EXPERIENCE =[
+    {
+        title: "Desarrollador Backend - TENARIS",
+        date: "2022 - Actualmente",
+        description: "Desarrollo y mantenimiento de aplicaciones. Trabajo como LTP (Lider Tecnico de Proyecto) en el area de IT con la empresa TENARIS.",
+    },
+    {
+        title: "Tecnico en Análisis,Desarrollo y Programacion de Aplicaciones",
+        date: "2019 - 2022",
+        description: "Recibido de Tecnico en Programación. Aprendizaje y formacion en distintas tecnologias, lenguajes y herramientas de desarrollo para el ambiente laboral. Estudio realizado en Instituto Superior de Formación Docente y Técnica Nº43",
+    },
+    {
+        title: "Enseñanzas sobre tecnologias",
+        date: "2017 - 2022",
+        description: "Enseñanza y formación sobre distintas tecnologias y herrmamientas de desarrollo y computación.",
+    }
+]
+---
+
+<ol class="relative border-s border-gray-200 ml-4"> 
+     {
+        EXPERIENCE.map(experiencie =>(
+             <li class="mb-10 ms-6"> 
+                <ExperienceItem {...experiencie}/>
+             </li>
+        ))
+     }                
+</ol>
+

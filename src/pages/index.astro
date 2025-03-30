@@ -1,11 +1,55 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Badge from '../components/Badge.astro';
+import LinkedInIcon from '../components/Icons/LinkedInIcon.astro';
+import GitHubIcon from '../components/Icons/GitHubIcon.astro';
+import GmailIcon from '../components/Icons/GmailIcon.astro';
+import Briefcase from '../components/Icons/Briefcase.astro';
+import SocialPill from '../components/SocialPill.astro';
+import Experience from '../components/Experience.astro';
+import SectionContainer from '../components/SectionContainer.astro';
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Gonza999 Porfolio - Desarrollador Backend" description="Portfolio de Gonza999, Desarrollador Backend con +3 años de experiencia.">
+	<main>
+		<SectionContainer class="py-44 pb-20">
+			<h1 class="text-white text-5xl font-bold flex flex-row gap-4 pb-10">
+				Hey, soy Gonza999 
+				<a 
+					href="https://www.linkedin.com/in/gonzalo-m-9ab920142/"
+					target="_blank"
+					rel="nooopener"
+					class="flex justify-center items-center">
+					<Badge>Disponible para trabajar</Badge>
+				</a>
+			</h1>
+			<h2 class="text-2xl opacity-80 text-pretty">
+				+3 años de experiencia. <span class="text-yellow-300/90">Desarrollador Backend.</span>
+				<span class="text-blue-100/90">De Buenos Aires, Argentina.</span>
+				<span class="opacity-80">Me especializo en la programación, analisis y desarrollo de aplicaciones.</span>
+			</h2>
+
+			<nav class="flex gap-x-2 mt-5">
+				<SocialPill href="https://www.linkedin.com/in/gonzalo-m-9ab920142/">
+				<LinkedInIcon class="size-6 bg-white rounded-md"/>
+					LinkedIn
+				</SocialPill>
+				<SocialPill href="https://github.com/gonza999">
+					<GitHubIcon class="size-6"/>
+						GitHub
+				</SocialPill>
+				<SocialPill href="mailto:gonzalomisciagna@gmail.com">
+					<GmailIcon class="size-6"/>
+						gonzalomisciagna@gmail.com
+				</SocialPill>
+			</nav>
+		</SectionContainer>
+
+		<SectionContainer id="experiencia">
+			<h2 class="text-3xl font-semibold mb-6 flex gap-x-4 items-center">
+				<Briefcase class="size-8"/>
+				Experiencia</h2>
+			<Experience/>
+		</SectionContainer>
+	</main>
 </Layout>
